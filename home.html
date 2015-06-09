@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <base href="/">
+    <title>Github Test</title>
+    <!-- inject:css -->
+    <link rel="stylesheet" href="styles/app.css">
+    <!-- endinject -->
+  </head>
+  <body ng-app="app" ng-controller="appController">
+    <div id="wrap">
+      <header class="masthead">
+        <div class="container"><a href="/">Home</a></div>
+      </header>
+      <div class="container">
+        <ng-view id="ng_view"></ng-view>
+      </div>
+    </div>
+    <!-- inject:js -->
+    <script src="scripts/dependencies.js"></script>
+    <script src="scripts/templates.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- endinject -->
+  </body>
+</html>
